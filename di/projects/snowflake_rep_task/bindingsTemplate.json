@@ -1,0 +1,22 @@
+{
+  "variables": {
+    "cloudStagingConnection": "",
+    "platformConnection": "",
+    "projectName": "",
+    "task.sf_repl-r9bf.sourceConnection": "",
+    "task.sf_repl-r9bf.targetConnection": "",
+    "task.sf_repl-r9bf.targetStorageConnection": "",
+    "task.sf_repl-r9bf:null$_$dbo.schema": ""
+  },
+  "idToNameMap": {
+    "sf_repl-r9bf": "SF_Repl"
+  },
+  "connectionProperties": {
+    "task.sf_repl-r9bf.sourceConnection": {
+      "type": "repsrc_mssql"
+    },
+    "task.sf_repl-r9bf.targetConnection": {
+      "type": "reptgt_qdisnowflake"
+    }
+  }
+}
