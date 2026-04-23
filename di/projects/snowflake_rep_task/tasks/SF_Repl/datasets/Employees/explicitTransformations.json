@@ -9,6 +9,15 @@
         "nullable": true,
         "markAsMetadata": false,
         "hash": false
+      },
+      {
+        "action": "DROP",
+        "columnName": "Photo",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false,
+        "hash": false
       }
     ]
   },
