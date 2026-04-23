@@ -2,7 +2,7 @@
   "fullLoadOnly": false,
   "targetEndpoint": {
     "targetConnection": "{{task.sf_repl-r9bf.targetConnection}}",
-    "targetSchema": "",
+    "targetSchema": "{{task.sf_repl-r9bf.targetSchema}}",
     "targetStorageConnection": "{{task.sf_repl-r9bf.targetStorageConnection}}",
     "targetControlTableSchema": ""
   },
