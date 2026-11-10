@@ -1,0 +1,6 @@
+properties:
+  id: products-imbg
+  name: Products
+  inputDatasets:
+    - datasetId: products
+      taskId: ll_lake_landing-imbc

@@ -1,0 +1,11 @@
+sourceConnection: '{{task.ll_lake_landing-imbc.sourceConnection}}'
+explicitlySelected:
+  - name: Orders
+    schema: '{{task.ll_lake_landing-imbc:null$_$dbo.schema}}'
+    type: TABLE
+  - name: Products
+    schema: '{{task.ll_lake_landing-imbc:null$_$dbo.schema}}'
+    type: TABLE
+  - name: Region
+    schema: '{{task.ll_lake_landing-imbc:null$_$dbo.schema}}'
+    type: TABLE

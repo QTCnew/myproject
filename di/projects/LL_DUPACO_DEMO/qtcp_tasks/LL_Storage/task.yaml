@@ -1,0 +1,16 @@
+properties:
+  name: LL_Storage
+  id: ll_storage-imbd
+  type: STORAGE
+settings:
+  artifactsSettings:
+    liveViewsEnabled: false
+  artifactsLocation:
+    internalSchema: '{{task.ll_storage-imbd.internalSchema}}'
+    taskSchema: '{{task.ll_storage-imbd.taskSchema}}'
+    databaseName: '{{task.ll_storage-imbd.databaseName}}'
+  taskRuntime:
+    warehouseSelection:
+      warehouseName: '{{task.ll_storage-imbd.warehouseName}}'
+  catalogIntegration:
+    publishDatasets: true
