@@ -8,7 +8,7 @@ transformations:
       newColumnName: RegionDescription
       newDataType:
         type: UNSPECIFIED
-        length: 1000
+        length: 550
         precision: 0
         scale: 0
         originalTypeFull: ''
