@@ -1,0 +1,19 @@
+properties:
+  id: region
+  name: Region
+transformations:
+  columnTransformations:
+    - action: KEEP
+      columnName: RegionDescription
+      newColumnName: RegionDescription
+      newDataType:
+        type: UNSPECIFIED
+        length: 1000
+        precision: 0
+        scale: 0
+        originalTypeFull: ''
+      nullable: false
+sourceTable:
+  schema: '{{task.sp_l_landing-13-7:null$_$dbo.schema}}'
+  type: TABLE
+  name: Region
