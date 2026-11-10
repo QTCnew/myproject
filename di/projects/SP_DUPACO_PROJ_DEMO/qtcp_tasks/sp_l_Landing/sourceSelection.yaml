@@ -1,0 +1,11 @@
+sourceConnection: '{{task.sp_l_landing-13-7.sourceConnection}}'
+explicitlySelected:
+  - name: Suppliers
+    schema: '{{task.sp_l_landing-13-7:null$_$dbo.schema}}'
+    type: TABLE
+  - name: Territories
+    schema: '{{task.sp_l_landing-13-7:null$_$dbo.schema}}'
+    type: TABLE
+  - name: Region
+    schema: '{{task.sp_l_landing-13-7:null$_$dbo.schema}}'
+    type: TABLE

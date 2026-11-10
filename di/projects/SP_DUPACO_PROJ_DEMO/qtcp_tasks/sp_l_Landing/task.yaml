@@ -1,0 +1,17 @@
+properties:
+  name: sp_l_Landing
+  id: sp_l_landing-13-7
+  type: LANDING
+settings:
+  landingDwSettings:
+    landingArtifactsLocation:
+      dataAssetSchema: '{{task.sp_l_landing-13-7.taskSchema}}'
+      database: '{{task.sp_l_landing-13-7.databaseName}}'
+  landingAppRuntime:
+    sourceCdcFetchIntervalMinutes: 60
+  fileAttributes:
+    general:
+      loadingMethod: SNOWPIPE_STREAMING
+  applyChangesOptions:
+    changeProcessingTuning:
+      batchApplyEnabled: false

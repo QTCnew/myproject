@@ -1,0 +1,6 @@
+properties:
+  id: territories-13_a
+  name: Territories
+  inputDatasets:
+    - datasetId: territories
+      taskId: sp_l_landing-13-7

@@ -1,0 +1,12 @@
+properties:
+  name: sp_l_Storage
+  id: sp_l_storage-13-8
+  type: STORAGE
+settings:
+  artifactsLocation:
+    internalSchema: '{{task.sp_l_storage-13-8.internalSchema}}'
+    taskSchema: '{{task.sp_l_storage-13-8.taskSchema}}'
+    databaseName: '{{task.sp_l_storage-13-8.databaseName}}'
+  taskRuntime:
+    warehouseSelection:
+      warehouseName: '{{task.sp_l_storage-13-8.warehouseName}}'
